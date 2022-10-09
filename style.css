@@ -561,12 +561,12 @@ p {
 
 }
 
-/*@media (max-width: 400px) {*/
-/*    .banner .contentBx {*/
-/*        width: 100%;*/
-/*        text-align: center;*/
-/*    }*/
-/*    .banner .contentBx h2 {*/
-/*        font-size: 2em;*/
-/*    }*/
-/*}*/
+@media (max-width: 400px) {
+    .banner .contentBx {
+        width: 100%;
+        text-align: center;
+    }
+    .banner .contentBx h2 {
+       font-size: 2em;
+    }
+}
