@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     scroll-behavior: smooth;
 }
 
@@ -58,7 +58,8 @@ section {
     object-fit: cover;
 }
 
-.banner .contentBx, .sidebar {
+.banner .contentBx,
+.sidebar {
     position: absolute;
     top: 0;
     right: 0;
@@ -206,7 +207,7 @@ p {
 }
 
 .title h2::before {
-    content: '';
+    content: "";
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -305,19 +306,19 @@ p {
     color: #fff;
 }
 
-.skills{
+.skills {
     width: 100%;
     max-width: 600px;
     padding: 0 20px;
 }
 
-.skill-bar{
+.skill-bar {
     height: 14px;
     background: #282828;
     border-radius: 3px;
 }
 
-.skill-per{
+.skill-per {
     height: 14px;
     background: #00bcd4;
     border-radius: 3px;
@@ -325,7 +326,7 @@ p {
     animation: fillBars 2.5s 1;
 }
 
-.skill-per::before{
+.skill-per::before {
     content: attr(per);
     position: absolute;
     padding: 4px 6px;
@@ -338,7 +339,7 @@ p {
     transform: translateX(50%);
 }
 
-.skill-per::after{
+.skill-per::after {
     content: "";
     position: absolute;
     width: 10px;
@@ -349,11 +350,11 @@ p {
     border-radius: 2px;
 }
 
-@keyframes fillBars{
-    from{
+@keyframes fillBars {
+    from {
         width: 0;
     }
-    to{
+    to {
         width: 100%;
     }
 }
@@ -407,7 +408,8 @@ p {
     opacity: 1;
 }
 
-.work .content .workBx .textBx h3, a {
+.work .content .workBx .textBx h3,
+a {
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -462,7 +464,7 @@ p {
     height: 100px;
 }
 
-.contact .contactForm .row input[type="submit"]{
+.contact .contactForm .row input[type="submit"] {
     background: #00bcd4;
     color: #fff;
     padding: 10px 30px;
@@ -493,7 +495,8 @@ p {
     .banner .imageSideBar {
         display: none;
     }
-    .banner .contentBx, .sidebar {
+    .banner .contentBx,
+    .sidebar {
         width: 100%;
         padding: 40px;
     }
@@ -558,7 +561,6 @@ p {
     .banner .contentBx h2 {
         font-size: 2em;
     }
-
 }
 
 @media (max-width: 400px) {
@@ -567,6 +569,6 @@ p {
         text-align: center;
     }
     .banner .contentBx h2 {
-       font-size: 2em;
+        font-size: 2em;
     }
 }
